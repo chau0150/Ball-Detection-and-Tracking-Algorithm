@@ -30,10 +30,10 @@ For this program, the resizing function for the Video Stream window and the Cont
   
 Now that this library is installed, you can download the 'BallDetectionandTracking.py' file. 
 The following steps will need to be followed, in order to properly configure this code for your own use: 
-    1. First off you will need to update the 'Red_LowerRange' and 'Red_UpperRange' variables with your HSV range values determined from     Part 1.
-    2. Next, you can run this program, if you notice that the frame showing your live Video Stream is experiencing lag, then you will       need to reduce the size of the frame's width on line 32. As this will allow a higher frames per second to be achieved. 
-    3. The remainder of the code should work for any colour ball you are using as long as you have determined the HSV range                 successfully.
-    4. When running the code, you should be able to see the ball with its circumference outlined once it has been detected, in additon       to its contrail of tracked position values when moving, as shown below. 
+ 1. First off you will need to update the 'Red_LowerRange' and 'Red_UpperRange' variables with your HSV range values determined from         Part 1.
+ 2. Next, you can run this program, if you notice that the frame showing your live Video Stream is experiencing lag, then you will           need to reduce the size of the frame's width on line 32. As this will allow a higher frames per second to be achieved. 
+ 3. The remainder of the code should work for any colour ball you are using as long as you have determined the HSV range                     successfully.
+ 4. When running the code, you should be able to see the ball with its circumference outlined once it has been detected, in additon         to its contrail of tracked position values when moving, as shown below. 
     
                                               <Image here>
     
