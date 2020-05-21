@@ -14,14 +14,18 @@ This step needs to be conducted first as the HSV range determined from this pack
                 a) 'Original' - The original image of the ball you uploaded, for example: 'red3.jpg'
                 b) 'Mask' - The final masked output of the ball using the HSV range 
                 c) 'HSV_Segmentation' - The interactive window that will let you alter the low and high HSV ranges for the uploaded                         image.
-  5. In this step you will need to use the Sliders in the 'HSV_Segmentation' window, move them until only the ball is visible as shown        in the figure below. 
+  5. In this step you will need to use the Sliders in the 'HSV_Segmentation' window, move them until only the ball is visible as shown        in the figure below.
   
-  ![](Images/HSV_Segmentation.JPG)
+  <p align="center">
+  <img src="Images/HSV_Segmentation.JPG">
+</p>
                                                 
   6. Now that these new Slider values for the HSV have been configured, the 'Mask' window should now look similar to the Figure below,        where the mask has been created of the ball. 
   
-  ![](Images/Mask.JPG) 
-                                                
+   <p align="center">
+  <img src="Images/Mask.JPG">
+</p> 
+
   Note: Keep a copy of the upper and lower values of the HSV that you have configured in this program, as these will be used in the         following program (Part 2)
                                                   
  ## Part 2: Install the Ball Detection and Tracking Program, including its library packages that it uses
@@ -35,6 +39,8 @@ The following steps will need to be followed, in order to properly configure thi
  3. The remainder of the code should work for any colour ball you are using as long as you have determined the HSV range                     successfully.
  4. When running the code, you should be able to see the ball with its circumference outlined once it has been detected, in additon         to its contrail of tracked position values when moving, as shown below. 
     
-![](Images/balldetection.JPG)
+<p align="center">
+<img src="Images/balldetection.JPG">
+</p> 
     
 Note: There is no key assigned to cancel these window frames, so in order to stop this software you will have to manaully stop the program through the IDE you are using. 
