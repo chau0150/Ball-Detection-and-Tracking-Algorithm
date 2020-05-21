@@ -15,9 +15,13 @@ This step needs to be conducted first as the HSV range determined from this pack
                 b) 'Mask' - The final masked output of the ball using the HSV range 
                 c) 'HSV_Segmentation' - The interactive window that will let you alter the low and high HSV ranges for the uploaded                         image.
   5. In this step you will need to use the Sliders in the 'HSV_Segmentation' window, move them until only the ball is visible as shown        in the figure below. 
+  
                                                 <Image here>
+                                                
   6. Now that these new Slider values for the HSV have been configured, the 'Mask' window should now look similar to the Figure below,        where the mask has been created of the ball. 
+  
                                                 <Image here> 
+                                                
   Note: Keep a copy of the upper and lower values of the HSV that you have configured in this program, as these will be used in the         following program (Part 2)
                                                   
  ## Part 2: Install the Ball Detection and Tracking Program, including its library packages that it uses
@@ -30,4 +34,7 @@ The following steps will need to be followed, in order to properly configure thi
     2. Next, you can run this program, if you notice that the frame showing your live Video Stream is experiencing lag, then you will       need to reduce the size of the frame's width on line 32. As this will allow a higher frames per second to be achieved. 
     3. The remainder of the code should work for any colour ball you are using as long as you have determined the HSV range                 successfully.
     4. When running the code, you should be able to see the ball with its circumference outlined once it has been detected, in additon       to its contrail of tracked position values when moving, as shown below. 
+    
+                                              <Image here>
+    
 Note: There is no key assigned to cancel these window frames, so in order to stop this software you will have to manaully stop the program through the IDE you are using. 
