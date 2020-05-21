@@ -28,7 +28,7 @@ This step needs to be conducted first as the HSV range determined from this pack
 
   Note: Keep a copy of the upper and lower values of the HSV that you have configured in this program, as these will be used in the         following program (Part 2)
                                                   
- ## Part 2: Install the Ball Detection and Tracking Program, including its library packages that it uses
+ ## Part 2: Install the Ball Detection and Tracking Program
 For this program, the resizing function for the Video Stream window and the Contour finding function are commands utilised from the Imutils Library. In order to install this Library, use the pip command: 
   - $ pip install imutils
   
