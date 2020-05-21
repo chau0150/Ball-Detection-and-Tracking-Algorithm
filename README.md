@@ -13,6 +13,14 @@ This step needs to be conducted first as the HSV range determined from this pack
   4. You will notice that three different windows will open, including:
                 a) 'Original' - The original image of the ball you uploaded, for example: 'red3.jpg'
                 b) 'Mask' - The final masked output of the ball using the HSV range 
-                c) 'HSV_Segmentation' - The interactive window that will let you alter the low and high HSV ranges for the uploaded image.
-  5. In this step you will need to use the Sliders in the 'HSV_Segmentation' window, move them until only the ball is visible as shown in   the figure below. 
-  
+                c) 'HSV_Segmentation' - The interactive window that will let you alter the low and high HSV ranges for the uploaded                         image.
+  5. In this step you will need to use the Sliders in the 'HSV_Segmentation' window, move them until only the ball is visible as shown     in the figure below. 
+                                                <Image here>
+  6. Now that these new Slider values for the HSV have been configured, the 'Mask' window should now look similar to the Figure below,       where the mask has been created of the ball. 
+                                                <Image here> 
+  Note: Keep a copy of the upper and lower values of the HSV that you have configured in this program, as these will be used in the         following program (Part 2)
+                                                  
+ ## Part 2: Install the Ball Detection and Tracking Program, including its library packages that it uses
+For this program, the resizing function for the Video Stream window and the Contour finding function are commands utilised from the Imutils Library. In order to install this Library, use the pip command: 
+  - $ pip install imutils
+Now that this library is installed, you can download the 'BallDetectionandTracking.py' file. 
