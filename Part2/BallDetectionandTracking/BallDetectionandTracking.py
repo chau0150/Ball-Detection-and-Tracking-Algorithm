@@ -14,7 +14,7 @@ Red_UpperRange = (19, 255, 255)
 # Access the Webcam
 vs = VideoStream(src=0).start()
 
-# Construct the argument parse
+# Perform the necessary arguments
 argument_parse = argparse.ArgumentParser()
 argument_parse.add_argument("-v", "--video")
 argument_parse.add_argument("-b", "--buffer", type=int, default=64)
