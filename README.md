@@ -35,7 +35,7 @@ This step needs to be conducted first as the HSV range determined from this pack
 For this program, the resizing function (imutils.resize) for the Video Stream window and the Contour finding function (imutils.grab_contours) are commands utilised from the Imutils Library. In order to install this Library, use the pip command: 
   - $ pip install imutils
   
-Now that this library is installed, you can download the 'BallDetectionandTracking.py' file from the 'Part2 folder. 
+Now that this library is installed, you can download the 'BallDetectionandTracking.py' file from the 'Part2' folder. 
 The following steps will need to be followed, in order to properly configure this code for your own use: 
  1. First off you will need to update the 'Red_LowerRange' and 'Red_UpperRange' variables with your HSV range values determined from         Part 1.
  2. Next, you can run this program, if you notice that the frame showing your live Video Stream is experiencing lag, then you will           need to reduce the size of the frame's width on line 32. As this will allow a higher frames per second to be achieved. 
