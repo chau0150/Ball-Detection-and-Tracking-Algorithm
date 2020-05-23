@@ -25,13 +25,13 @@ tracked_points = deque(maxlen=arguments["buffer"])
 
 # Repeat the program continuously until stopped
 while True:
-   # grab the current frame
+   # Upload the most recent frame of the video
    currentframe = vs.read()
 
    # Resize the frame of the video to an appropriate size
    currentframe = imutils.resize(currentframe, width=900)
 
-   # Apply Gaussian Blur to the image to reduce high frequency noise
+   # Various filters
    image_blurred = cv2.GaussianBlur(currentframe, (11, 11), 0)
    # image_blurred = cv2.medianBlur(currentframe, 6)
    # image_blurred = cv2.bilateralFilter(currentframe, 10,70,70)
@@ -51,7 +51,7 @@ while True:
    # Applying the Dilation Morphology adds needed pixels to the mask of the ball, filling in any unwanted gaps
    maskvideo = cv2.dilate(maskvideo, kernel, iterations=3)
 
-   # Find the countours of the mask and designate the center point of the ball
+   # Find the countours of the mask and designate the centroid
    mask_contours = cv2.findContours(maskvideo.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
    mask_contours = imutils.grab_contours(mask_contours)
    center = None
