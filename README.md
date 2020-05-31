@@ -1,7 +1,7 @@
 # Ball-Detection-and-Tracking-Algorithm
 This program uses a combination of both Python3 and OpenCV to perform both the Detection and Tracking of a Size 1 Red Soccer Ball.
 
-<b> Note: The PYCharm IDE was utilised for this system, if you are having trouble running this system using a different IDE, then please download PYCharm as it has the necessary inbuilt functions. 
+<b> Note: The PYCharm IDE was utilised for this system, if you are having trouble running this system using a different IDE, then please download PYCharm as it has the necessary inbuilt functions. </b>
 
 In order to perform the Ball Detection and Tracking algorithm, the code is split into two segments, including: 
 - Part 1: Colour Range Identification Program 
