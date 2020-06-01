@@ -36,6 +36,7 @@ This step needs to be conducted first as the HSV range determined from this pack
  ## Part 2: Install the Ball Detection and Tracking Program
 For this program, the resizing function (imutils.resize) for the Video Stream window and the Contour finding function (imutils.grab_contours) are commands utilised from the Imutils Library. In order to install this Library, use the pip command: 
   - $ pip install imutils
+<b> Note: This install can be performed using the Anaconda3 Command line. </b> 
   
 Now that this library is installed, you can download the 'BallDetectionandTracking.py' file from the 'Part2' folder. 
 The following steps will need to be followed, in order to properly configure this code for your own use: 
